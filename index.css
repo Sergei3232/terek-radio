@@ -1,6 +1,6 @@
 .header{
     background-color: #2a3031;
-    width: 1903px;
+    width: 100%;
     height: 53px;
     /* color: red; */
     padding: 0;
@@ -111,16 +111,19 @@
 body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 
 .menu{
     width: 100%;
     height: 81px;
-    background-color: #fff;
+    background-color: gainsboro;
     padding: 0px 15px;
     display: inline-flex;
     justify-content: center;
     align-items: center; 
+    margin: 0px;
+    padding: 0px;
 }
 
 .menu__logo{
@@ -165,10 +168,41 @@ body{
 .menu__bottun:hover{
 
     background-color: cornsilk;
+    color: darkslategray
 }
 
 .menu__a{
+    text-decoration:none;
     display: block;
     width: 100%;
     height: 100%;
+    color: black;
+    text-align: justify 
+}
+
+.main{
+    width: 100%;
+    height: 396px;
+    padding: 50px 0px;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+}
+.main__content{
+    width: 540px;
+    height: 360.25px; 
+    background-color: #21537cb6;     
+}
+
+.main__photo{
+     
+    /* background-color: #eb722e;        */
+}
+
+
+
+.main__photoRadio{
+    width: 540px;
+    height: 360.25px;
+
 }
